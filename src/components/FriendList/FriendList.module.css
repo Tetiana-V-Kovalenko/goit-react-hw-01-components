@@ -1,0 +1,35 @@
+.friend_list{
+    margin: 20px auto;
+    padding: 0;
+width: 50%;
+list-style: none;
+}
+.item{
+    margin-bottom: 5px ;
+    padding: 5px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+border: 1px solid rgb(175, 175, 175);
+border-radius: 5px;
+box-shadow: 3px 3px 3px  rgb(175, 175, 175);
+
+}
+.status{
+    width: 10px;
+    height: 10px;
+  border-radius: 50%;
+}
+.status.green{
+    background-color: green;
+}
+.status.red{
+    background-color: red;
+}
+.avatar{
+
+}
+.name{
+    font-size: larger;
+
+}

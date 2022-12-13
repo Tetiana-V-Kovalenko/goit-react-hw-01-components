@@ -1,0 +1,18 @@
+.transaction_history{
+    margin: 20px auto;
+    width: 50%;
+}
+.transaction_thead{
+    background-color: rgb(160, 160, 255);
+    height: 50px;
+}
+.transaction_tbody{
+    text-align: center;
+}
+.transaction_body_row{
+    height: 30px;
+    color: rgb(60, 60, 116);
+}
+.transaction_body_row:nth-child(even){
+background-color: rgb(206, 206, 255);
+}
